@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nava{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    float: left;
+    color: white;
+    display: inline-flex;
+    overflow: hidden;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.nava p{
+    margin-left: 20px;
+}
+.nava ul{
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    }
+.nava ul li{
+    float: left;
+    margin-left: 50px;
+        
+}
+.nava ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mnu{
+margin-left: 40%;
+}
+
+.nava ul li a:hover{
+    background-color: #2577FD;
+    transition: 1s;
+}
+.lgoo{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.smnu{
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+}
+
+.smnu ul{
+    list-style: none;
+    overflow: hidden;
+}
+.smnu ul li {
+    float: left;
+    padding: 10px;
+}
+.smnu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #2a2a2a;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+}
+.smnu ul li a:hover{
+    background-color: #2577FD;
+    transition: 1s;
+}
+.hros{
+    width: 100%;
+    height: 25%;
+    background-color: #C8EBFF;
+}
+.cn{
+    text-align: right;
+    font-size: 50px;
+}
+.hros{
+    display: flex;
+}
+.btnm{
+    background-color: #2577FD;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.btnm a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sprdct{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.sprdct p{
+font-size: 25px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+}
+.prdct{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.sprdct a{
+    text-decoration: none;
+    color: black;
+}
