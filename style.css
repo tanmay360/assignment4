@@ -109,6 +109,7 @@ font-family: 'Playfair Display', serif;
 text-align: center;
 }
 .prdct{
+    width: 100%;
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 5%;
@@ -116,4 +117,50 @@ text-align: center;
 .sprdct a{
     text-decoration: none;
     color: black;
+}
+.sprdct a:hover{
+    color: #2577FD;
+}
+.by a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.by{
+    text-align: center;
+    background-color: #2577FD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.bnr{
+    width: 80%;
+    height: 400px;
+    background-color: #FFF7D8;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.bnnr{
+    width: auto;
+    height: 600px;
+    display: flex;
+    padding-top: 4%;
+}
+.cntent{
+    text-align: right;
+    margin-left: 70%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.cntent p{
+    font-size: 20px;
+}
+.cntent h1{
+    font-size: 45px;
 }
